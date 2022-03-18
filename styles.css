@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 *{
-    box-sizing: border-box; 
+    /* box-sizing: border-box;  */
     margin: 0;
     padding: 0;
 	font-family: "Montserrat", sans-serif;
+}
+
+body{
+    /* margin: 20px 100px; */
+    /* box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5); */
+    /* background-image: url("./img/fondo.png");  */
+    background-color: white;
+    background-repeat: repeat;
 }
 
 li, a, button{
@@ -304,7 +312,8 @@ li, a, button{
 /* info2 */
 
 .info-last{
-    background-color: #CBDBEC;
+    /* background-color: #CBDBEC; */
+    background-color: #D9D9D9;
 }
 
 
@@ -342,7 +351,7 @@ li, a, button{
 }
 
 .join{
-    background-image: linear-gradient(#CBDBEC 80%, #2D3E50 20%);
+    background-image: linear-gradient(#D9D9D9 80%, #2D3E50 20%);
     color: #fff;
     padding-top: 50px;
     /* padding: 60px 0; */
